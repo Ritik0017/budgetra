@@ -1,5 +1,5 @@
 /* @tree-shake */
-import arcjet from "@arcjet/next";
+//import arcjet from "@arcjet/next";
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 const aj = arcjet({
   key: process.env["ARCJET_KEY"],
